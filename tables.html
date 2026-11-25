@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Results and Weekly Class Timetable</title>
+  </head>
+  <body>
+    <main>
+      <h1>Academic Records and Schedule</h1>
+      <!--Table 1: Student Results-->
+      <section aria-labelledby="results-heading">
+        <h2 id="results-heading">Course Assessment Scores</h2>
+        <table border="1">
+          <caption>
+            Web Development Module Results (Maximum 100 per Subject)
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Student</th>
+              <th scope="col">HTML</th>
+              <th scope="col">CSS</th>
+              <th scope="col">Javascript</th>
+              <th scope="col">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Ada</th>
+              <td>82</td>
+              <td>71</td>
+              <td>69</td>
+              <td>222</td>
+            </tr>
+            <tr>
+              <th scope="row">Musa</th>
+              <td>75</td>
+              <td>81</td>
+              <td>74</td>
+              <td>230</td>
+            </tr>
+            <tr>
+              <th scope="row">Grace</th>
+              <td>91</td>
+              <td>88</td>
+              <td>80</td>
+              <td>259</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th scope="row">Class Average</th>
+              <td>82.7</td>
+              <td>80.0</td>
+              <td>74.3</td>
+              <td>237.0</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <!-- Table 2: Weekly Class Timetable -->
+      <section aria-labelledby="timetable-heading">
+        <h2 id="timetable-heading">Weekly Schedule</h2>
+        <table border="1">
+          <caption>
+            BSc Computer Science - Year 1 Weekly Class Timetable
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Time Period</th>
+              <th scope="col">Monday</th>
+              <th scope="col">Tuesday</th>
+              <th scope="col">Wednesday</th>
+              <th scope="col">Thursday</th>
+              <th scope="col">Friday</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">08:00 - 10:00</th>
+              <td>HTML &amp; Semantics</td>
+              <td rowspan="2">Database Systems Lab</td>
+              <td>Discrete Mathematics</td>
+              <td>HTML &amp; Semantics</td>
+              <td>Communication Skills</td>
+            </tr>
+            <tr>
+              <th scope="row">10:30 - 12:30</th>
+              <td>CSS Layout</td>
+              <td>Javascript Basics</td>
+              <td>CSS Layout</td>
+              <td>Web Accessibility</td>
+            </tr>
+            <tr>
+              <th scope="row">12:30 - 13:30</th>
+              <td colspan="5">Midday Break</td>
+            </tr>
+            <tr>
+              <th scope="row">13:30 - 15:30</th>
+              <td>Pragramming Lab</td>
+              <td>Discrete Mathematics</td>
+              <td>Self-Directed Study</td>
+              <td>Javascript Lab</td>
+              <td>Tutorial &amp; Review</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th scope="row">Daily Contact Hours</th>
+              <td>6 hrs</td>
+              <td>6 hrs</td>
+              <td>4 hrs</td>
+              <td>6 hrs</td>
+              <td>6 hrs</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
